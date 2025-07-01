@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Web Developer">
     <meta name="author" content="Vaibhaw Anand">
-    <title>Vaibhaw Anand Landing page</title>
+    <title>Vaibhaw Anand Landing Page</title>
     <!-- font icons -->
     <link rel="stylesheet" href="{% static 'vendors/themify-icons/css/themify-icons.css' %}">
     <!-- Bootstrap + main styles -->
@@ -15,15 +15,10 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
         <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/vaibhaw-anand-raw/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://twitter.com/sanatanBeing"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://github.com/anandspaces"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Vaibhaw Anand</h1>
-                <h6 class="header-mono" >Web Developer</h6>
+                <h6 class="header-mono" ><span class="typed" data-typed-items="Software Developer, Data Science Enthusiast, Computer Science Engineer"></span></h6>
                 <button class="btn btn-primary btn-rounded">
                     <a href="{% url 'download_resume' %}" download="resume.pdf" style="color: white;"><i class="ti-printer pr-2"></i>Resume</a>
                 </button>
@@ -51,7 +46,7 @@
                     <img src="{% static 'imgs/avatar.jpg' %}" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Vaibhaw Anand</h5>
-                        <div class="brand-subtitle">Web Developer</div>
+                        <div class="brand-subtitle">Software Developer</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -71,10 +66,10 @@
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
+                <h3 class="font-weight-light">About</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">A Web Developer Located In Our Lovely Earth</h5>
-                <p class="mt-20">I have learned C, C++, java, python, javascript programming languages, and worked upon web development.</p>
+                <h5 class="mb-3">A Software Developer Located In Our Lovely Earth</h5>
+                <p class="mt-20">I have gained proficiency in multiple programming languages, including C, C++, Java, Python, and JavaScript. Additionally, I have practical experience in Web development and Android development, allowing me to build and maintain robust web and mobile applications.</p>
                 <!-- <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button> -->
             </div>
             <div class="col-lg-4 about-card">
@@ -83,13 +78,13 @@
                 <ul class="mt40 info list-unstyled">
                     <li><span>Email</span> : anandvaibhaw000@gmail.com</li>
                     <li><span>Phone</span> : +919602743680</li>
-                    <li><span>Address</span> : Aurangabad (Bihar)</li>
+                    <li><span>Address</span> : Aurangabad, India</li>
                 </ul>
                 <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/vaibhaw-anand-raw/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/anand-raw/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="https://twitter.com/sanatanBeing"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="https://github.com/anandspaces"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
+                </ul>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">My works are associated with</h3>
@@ -109,11 +104,11 @@
                         <hr>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-bar-chart icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Data Analysis</h6>
+                        <h6>Data Science</h6>
                         <hr>
                     </div>
                 </div>
@@ -126,95 +121,172 @@
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Expertise</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6>Web Development</h6>
-                            <p class="subtitle">I have worked on HTML, CSS, JavaScript, also I have worked on react and django framework.</p>
-                            <hr>
-                            <h6>Data Analysis</h6>
-                            <p class="subtitle">I have worked on data analysis using python, and worked on numpy, pandas, matplotlib libraries.</p>
-                            <hr>
-                            <h6>Data Structures and Algorithms</h6>
-                            <p class="subtitle">I have worked on Data Structures and Algorithms.</p>
-                            <hr>
-                            <h6>Database Management System</h6>
-                            <p class="subtitle">I have worked on MySQL and MongoDB in database.</p>
-                            <hr>
-                            <h6>Version Control System</h6>
-                            <p class="subtitle">I have worked on git and github.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-6">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>Education</h4>
-                                <span class="line"></span>  
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6>BTech (Computer Science &amp; Engineering)</h6>
                             <p class="title text-danger">Central University of Haryana</p>
+                            <h6>BTech (Computer Science &amp; Engineering)</h6>
                             <p class="subtitle">2021 - Present</p>
                         </div>
                     </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                           <h6>Web Development</h6>
+                            <p class="subtitle">I have extensive experience building responsive and scalable web applications with HTML, CSS, JavaScript, and frameworks like React, Next.js, and Django. I am skilled in server-side rendering (SSR), static site generation (SSG), and building RESTful APIs, using GraphQL for data queries and mutations. I also work with CSS frameworks like Tailwind CSS and Bootstrap.</p>
+                            <hr>
+
+                            <h6>Data Analysis</h6>
+                            <p class="subtitle">I specialize in data analysis using Python, with expertise in libraries like NumPy, Pandas, and Matplotlib for data processing and visualization. I have experience with Jupyter Notebooks for EDA and machine learning with scikit-learn, utilizing tools like Seaborn and Plotly for insights presentation.</p>
+                            <hr>
+
+                            <h6>Data Structures and Algorithms</h6>
+                            <p class="subtitle">I possess a strong foundation in data structures (arrays, trees, graphs) and algorithms (sorting, searching, dynamic programming). I apply these concepts efficiently in Python, JavaScript, and C++ to optimize solutions for scalability and performance.</p>
+                            <hr>
+
+                            <h6>Database Management Systems</h6>
+                            <p class="subtitle">I have hands-on experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Firebase) databases, including database design, querying, and optimization, ensuring efficient data management for scalable systems.</p>
+                            <hr>
+
+                            <h6>Version Control Systems</h6>
+                            <p class="subtitle">I am proficient in Git and have experience with GitHub, GitLab, and Bitbucket. I use GitFlow and regularly work with CI tools like Jenkins and CircleCI for automated testing and deployment.</p>
+                            <!--<hr>-->
+
+                            <!--<h6>Cloud Computing & Deployment</h6>-->
+                            <!--<p class="subtitle">I am experienced in deploying web applications to AWS, Azure, and Heroku, using tools like Docker and Kubernetes for containerization and large-scale deployments. I also set up CI/CD pipelines for automated deployment.</p>-->
+                            <!--<hr>-->
+
+                            <!--<h6>Testing & Quality Assurance</h6>-->
+                            <!--<p class="subtitle">I follow best practices for writing maintainable code and use testing frameworks like Jest, Mocha, and Cypress for unit, integration, and end-to-end testing. I implement TDD and CI for reliable, high-performance applications.</p>-->
+                            <!--<hr>-->
+
+                            <!--<h6>Soft Skills & Collaboration</h6>-->
+                            <!--<p class="subtitle">I possess strong communication and collaboration skills, with experience in Agile development and delivering clear updates to both technical and non-technical stakeholders. I prioritize continuous learning to stay updated with industry trends.</p>-->
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4">
+                <!--<div class="col-md-6 col-lg-4">-->
+
+                <!--</div>-->
+                <div class="col-lg-6">
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
                                 <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body pb-2">
                            <h6>HTML5 &amp; CSS3</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>JavaScript</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Python</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>SQL</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Django</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>React</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Node.js</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>UX/UI Design</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>JavaScript</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>React</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Next.js</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Express.js</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Node.js</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Python</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Django</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>SQL (MySQL/PostgreSQL)</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>MongoDB</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Version Control (Git, GitHub, GitLab)</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Containerization & Container Orchestration</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>Cloud Services (AWS, Azure, GCP)</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h6>UX/UI Design</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!--<h6>RESTful APIs & GraphQL</h6>-->
+                        <!--<div class="progress mb-3">-->
+                        <!--    <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>-->
+                        <!--</div>-->
+
+                        <!--<h6>Authentication & Authorization (JWT, OAuth)</h6>-->
+                        <!--<div class="progress mb-3">-->
+                        <!--    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>-->
+                        <!--</div>-->
+
+
+                        <!--<h6>Testing (Jest, Mocha, Cypress)</h6>-->
+                        <!--<div class="progress mb-3">-->
+                        <!--    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>-->
+                        <!--</div>-->
+
+                        <!--<h6>CI/CD Pipelines (Jenkins, GitHub Actions)</h6>-->
+                        <!--<div class="progress mb-3">-->
+                        <!--    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>-->
+                        <!--</div>-->
+
                         </div>
                     </div>
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
                                 <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
+                                <span class="line"></span>
                             </div>
                         </div>
                         <div class="card-body pb-2">
@@ -222,11 +294,11 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>Hindi</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
                             <h6>Spanish</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>French</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -246,19 +318,8 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">1K</h1>
+                            <h1 class="text-danger font-weight-bold font40">1000+</h1>
                             <p class="text-light mb-1">Hours Worked</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">1K</h1>
-                            <p class="text-light mb-1">Projects Finished</p>
                         </div>
                     </div>
                 </div>
@@ -268,8 +329,19 @@
                             <div class="m-auto"><i class="ti-youtube icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">100</h1>
+                            <h1 class="text-danger font-weight-bold font40">100+</h1>
                             <p class="text-light mb-1">Tutorial Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">50+</h1>
+                            <p class="text-light mb-1">Projects Finished</p>
                         </div>
                     </div>
                 </div>
@@ -279,8 +351,8 @@
                             <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">100</h1>
-                            <p class="text-light mb-1">Tea Drinked</p>
+                            <h1 class="text-danger font-weight-bold font40">500+</h1>
+                            <p class="text-light mb-1">Tea Drank</p>
                         </div>
                     </div>
                 </div>
@@ -292,79 +364,75 @@
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
             <div class="row">
+                <!-- Front-End Development -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-vector text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Front-End Development</h5>
-                            <P class="subtitle">Development of client-side components and functionalities using HTML, CSS, and JavaScript frameworks such as React, Angular, or Vue.js.
-                                Integration of design mockups into functional web layouts, ensuring pixel-perfect implementation and consistency across different devices and browsers.
-                                Optimization of front-end performance to enhance user experience and minimize load times.</P>
+                            <p class="subtitle">I specialize in crafting modern, interactive, and visually appealing user interfaces. Using technologies like HTML, CSS, and JavaScript, along with frameworks such as React and Next.js, I transform design mockups into functional web applications. I focus on building responsive layouts that provide an optimal experience across devices, with an emphasis on performance and scalability.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Back-End Development -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-write text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Back-End Development</h5>
-                            <P class="subtitle">Building server-side applications and APIs using server-side programming languages like Python, PHP, Node.js, or Ruby on Rails.
-                                Database design and management, including the creation of relational or NoSQL databases, data modeling, and query optimization.
-                                Implementation of authentication, authorization, and user management systems to secure web applications and protect sensitive data.</P>
+                            <p class="subtitle">I build robust and secure server-side applications and RESTful APIs using technologies such as Python, Node.js, and Django. I am skilled in designing and managing databases, whether relational (MySQL, PostgreSQL) or NoSQL (MongoDB, Firebase). My back-end solutions ensure secure data handling, optimized performance, and integration with various front-end technologies to deliver complete, end-to-end applications.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Full Stack Solution -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-package text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Full Stack Solution</h5>
-                            <P class="subtitle">Creation of end-to-end web applications, encompassing both client-side (front-end) and server-side (back-end) development.
-                                Utilization of a combination of front-end technologies (HTML, CSS, JavaScript) and back-end technologies (Python, Node.js, Ruby on Rails, etc.) to build fully functional and interactive web applications.</P>
+                            <p class="subtitle">I offer comprehensive full-stack development services, combining front-end and back-end expertise to create seamless web applications. From building interactive UIs with React to implementing server-side logic and APIs using Node.js or Python, I handle the entire stack. My approach ensures smooth integration, scalability, and high performance across all layers of the application.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Maintenance and Support -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-map-alt text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Maintenence anad Support</h5>
-                            <P class="subtitle">Ongoing maintenance and updates to ensure the security, stability, and performance of web applications.
-                                Troubleshooting and debugging of issues reported by users or detected through monitoring systems.
-                                Providing technical support and guidance to clients or internal teams on using and maintaining web applications.</P>
+                            <h5 class="mb-3 card-title text-dark">Maintenance and Support</h5>
+                            <p class="subtitle">I provide ongoing maintenance and technical support to ensure the stability, security, and optimal performance of your web applications. From bug fixing to feature updates and scaling for growing traffic, I offer timely assistance to keep your system running smoothly. I also offer proactive monitoring to identify and resolve issues before they impact your users.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Responsive Web Design -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Responsive Web Design</h5>
-                            <P class="subtitle">Designing and developing websites that adapt and respond seamlessly to various screen sizes and devices, including desktops, laptops, tablets, and smartphones.
-                                Utilization of responsive design techniques such as fluid grids, flexible images, and media queries to create a consistent user experience across different devices.</P>
+                            <p class="subtitle">I design and develop websites that offer a flawless experience across devices, from desktops to mobile phones. Utilizing responsive design principles, such as fluid grids, flexible images, and media queries, I ensure that your site adapts to various screen sizes while maintaining a high-quality user experience.</p>
                         </div>
                     </div>
                 </div>
+                <!-- Deployment and DevOps -->
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                       <div class="card-header has-icon">
+                        <div class="card-header has-icon">
                             <i class="ti-support text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Deployment and DevOps</h5>
-                            <P class="subtitle">Deployment of web applications to production environments using platforms such as AWS, Azure, Heroku, or Docker containers.
-                                Implementation of continuous integration and continuous deployment (CI/CD) pipelines to automate the build, test, and deployment processes.
-                                Monitoring of application performance, logs, and errors, and implementation of scaling strategies to handle varying levels of traffic.</P>
+                            <p class="subtitle">I specialize in deploying web applications to production environments, leveraging cloud platforms such as AWS, Azure, and GCP. I also implement CI/CD pipelines to automate testing, integration, and deployment, ensuring faster development cycles and consistent application performance. My expertise in DevOps practices helps streamline operations, enhance scalability, and ensure uptime in dynamic environments.</p>
                         </div>
                     </div>
                 </div>
@@ -372,47 +440,184 @@
         </div>
     </section>
 
+
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
+<section class="section bg-custom-gray" id="portfolio">
+    <div class="container">
+        <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-4">
+            <div class="row">
+                <!-- HarmonicX -->
+                <div class="col-md-4">
                     <div class="card">
-                        <!-- <img src="project2_image.jpg" class="card-img-top" alt="Project"> -->
-                      <div class="card-body">
-                        <h5 class="card-title">Algorithms</h5>
-                        <p class="card-text">Code repos of basic algorithms in programming languages,i.e, C, C++, JAVA, Python</p>
-                        <a href="https://github.com/anandspaces/algorithms.git" class="btn btn-primary">Visit</a>
-                      </div>
+                        <div class="card-body">
+                            <h5 class="card-title">HarmonicX</h5>
+                            <p class="card-text">A feature-rich music streaming app where users can search, play, and manage music.
+                                <br><strong>Tech-Stack:</strong> React, Express.js, Node.js, MongoDB, RESTful API.</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="btn btn-primary disabled">Live Demo</a>
+                                <a href="https://github.com/anandspaces/spotify-clone.git" class="btn btn-primary">Source Code</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card">
-                      <!-- <img src="project2_image.jpg" class="card-img-top" alt="Project"> -->
-                      <div class="card-body">
-                        <h5 class="card-title">Social Rocket</h5>
-                        <p class="card-text">A React based Web App deployed on firebase</p>
-                        <a href="https://social-react-8a2d2.web.app/" class="btn btn-primary">Visit</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card">
-                      <!-- <img src="project3_image.jpg" class="card-img-top" alt="Project"> -->
-                      <div class="card-body">
-                        <h5 class="card-title">Patliputra Palate</h5>
-                        <p class="card-text">Restaurant site built using django.</p>
-                        <a href="https://github.com/anandspaces/fullstack_restaurant.git" class="btn btn-primary">Visit</a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-        </div>            
-    </section>
-    <!-- End of portfolio section -->
+
+                <!-- Samazik Sandesh -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Samazik Sandesh</h5>
+                            <p class="card-text">A social media platform where users can post, interact, and explore trending content.
+                                <br><strong>Tech-Stack:</strong> React, MaterialUI, Tailwind CSS, Firebase.</p>
+                            <div class="d-flex justify-content-between">
+                            <a href="https://samazik-sandesh.vercel.app/" class="btn btn-primary">Live Demo</a>
+                            <a href="https://github.com/anandspaces/react-socialmedia.git" class="btn btn-primary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magadh Rasam -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Magadh Rasam</h5>
+                            <p class="card-text">A restaurant management app for browsing menus, making reservations, and exploring special dishes.
+                                <br><strong>Tech-Stack:</strong> Django, React, Tailwind CSS, MySQL, RESTful API, Docker.</p>
+                            <div class="d-flex justify-content-between">
+                            <a href="https://magadh-rasam.vercel.app/" class="btn btn-primary">Live Demo</a>
+                            <a href="https://github.com/anandspaces/magadh-rasam.git" class="btn btn-primary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resume ATS Checker -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Resume Radar</h5>
+                            <p class="card-text">A tool that analyzes resumes against ATS (Applicant Tracking System) requirements for better job applications.
+                                <br><strong>Tech-Stack:</strong> React, Tailwind CSS, FastAPI, NLP.</p>
+                            <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-primary disabled">Live Demo</a>
+                            <a href="https://github.com/anandspaces/resume-ats-checker.git" class="btn btn-primary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Crime Data Analysis of India -->
+                <!--<div class="col-md-4">-->
+                <!--    <div class="card">-->
+                <!--        <div class="card-body">-->
+                <!--            <h5 class="card-title">Crime Data Analysis of India</h5>-->
+                <!--            <p class="card-text">A data-driven project analyzing crime trends across India using visualizations and statistical insights.-->
+                <!--                <br><strong>Tech-Stack:</strong> Pandas, Matplotlib, Seaborn, Jupyter Notebook.</p>-->
+                <!--            <div class="d-flex justify-content-between">-->
+                <!--            <a href="#" class="btn btn-primary disabled">Live Demo</a>-->
+                <!--            <a href="https://github.com/anandspaces/crime-data-analysis-india.git" class="btn btn-primary">Source Code</a>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!-- Recipe Generator -->
+                <!--<div class="col-md-4">-->
+                <!--    <div class="card">-->
+                <!--        <div class="card-body">-->
+                <!--            <h5 class="card-title">Recipe Generator</h5>-->
+                <!--            <p class="card-text">An AI-powered recipe app that suggests dishes based on available ingredients.-->
+                <!--                <br><strong>Tech-Stack:</strong> Next.js, Node.js, OpenAI API, MongoDB.</p>-->
+                <!--            <div class="d-flex justify-content-between">-->
+                <!--            <a href="#" class="btn btn-primary disabled">Live Demo</a>-->
+                <!--            <a href="https://github.com/anandspaces/recipe-generator-next.git" class="btn btn-primary">Source Code</a>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!-- School Landing Page -->
+                <!--<div class="col-md-4">-->
+                <!--    <div class="card">-->
+                <!--        <div class="card-body">-->
+                <!--            <h5 class="card-title">School Landing Page</h5>-->
+                <!--            <p class="card-text">A react based school landing page, containing sections like dashboard, about.-->
+                <!--                <br><strong>Tech-Stack:</strong> React, React-Icons, React-Router-Dom, Tailwind CSS, Node.js.</p>-->
+                <!--            <div class="d-flex justify-content-between">-->
+                <!--            <a href="https://school-landing-page-seven.vercel.app/" class="btn btn-primary">Live Demo</a>-->
+                <!--            <a href="https://github.com/anandspaces/react-rgs.git" class="btn btn-primary">Source Code</a>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!-- Todo -->
+                <!--<div class="col-md-4">-->
+                <!--    <div class="card">-->
+                <!--        <div class="card-body">-->
+                <!--            <h5 class="card-title">Todo App</h5>-->
+                <!--            <p class="card-text">A full-stack Todo App, it lets user add, remove, and edit todo.-->
+                <!--                <br><strong>Tech-Stack:</strong> React, Redux, Django, Django REST Framework, PostgreSQL</p>-->
+                <!--            <div class="d-flex justify-content-between">-->
+                <!--            <a href="#" class="btn btn-primary disabled">Live Demo</a>-->
+                <!--            <a href="https://github.com/anandspaces/todo-django.git" class="btn btn-primary">Source Code</a>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!-- Web Scrapper -->
+                <!--<div class="col-md-4">-->
+                <!--    <div class="card">-->
+                <!--        <div class="card-body">-->
+                <!--            <h5 class="card-title">Web Scraper</h5>-->
+                <!--            <p class="card-text">A full-stack Web Scraper App, it scraps the content from the web url.-->
+                <!--                <br><strong>Tech-Stack:</strong> Vue, Vue-Router, Pinia, Django, Django REST Framework, PostgreSQL.</p>-->
+                <!--            <div class="d-flex justify-content-between">-->
+                <!--            <a href="#" class="btn btn-primary disabled">Live Demo</a>-->
+                <!--            <a href="https://github.com/anandspaces/web-scraper-django.git" class="btn btn-primary">Source Code</a>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!-- Job Scrapper -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Scraper</h5>
+                            <p class="card-text">A full-stack Job Scraper App, it finds the job listings across various platforms and also scrapes the list of jobs posted.
+                                <br><strong>Tech-Stack:</strong> Next.js, TailwindCSS, MongoDB.</p>
+                            <div class="d-flex justify-content-between">
+                            <a href="https://next-job-scraper-gamma.vercel.app/" class="btn btn-primary">Live Demo</a>
+                            <a href="https://github.com/anandspaces/next-job-scraper.git" class="btn btn-primary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor First Care -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctor First Care</h5>
+                            <p class="card-text">A one stop solution that provides specialists and health check-up facilites.
+                                <br><strong>Tech-Stack:</strong> React, TailwindCSS, Fastify, MySQL.</p>
+                            <div class="d-flex justify-content-between">
+                            <a href="https://doctorfirstcare.com/" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-primary disabled">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of portfolio section -->
+
 
     <div class="section contact" id="contact">
         <div id="map" class="map"></div>
@@ -447,7 +652,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">Aurangabad (Bihar)</span></h6>
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Aurangabad, India</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -459,10 +664,10 @@
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/vaibhaw-anand-raw/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/anand-raw/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://twitter.com/sanatanBeing"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://github.com/anandspaces"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -486,12 +691,11 @@
 
     <!-- Isotope  -->
     <script src="{% static 'vendors/isotope/isotope.pkgd.js' %}"></script>
-    
-    <!-- Google mpas -->
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script> -->
-    
+
     <!-- js -->
     <script src="{% static 'js/scripts.js' %}"></script>
 
+    <!-- js typed library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </body>
 </html>
